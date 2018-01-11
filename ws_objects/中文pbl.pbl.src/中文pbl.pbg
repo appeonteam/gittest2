@@ -3,4 +3,5 @@
  "中文pbl.pbl" "";
 @end;
 @begin Objects 
+ "f_test1.srf" "中文pbl.pbl";
 @end;
