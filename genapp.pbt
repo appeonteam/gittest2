@@ -4,5 +4,5 @@ Save Format v3.0(19990112)
 @end;
 appname "genapp";
 applib "genapp.pbl";
-LibList "genapp.pbl;1.pbl;2.pbl";
+LibList "genapp.pbl;1.pbl;2.pbl;3.pbl;\u4e2d\u6587pbl.pbl";
 type "pb";
