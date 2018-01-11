@@ -3,5 +3,6 @@ global type str_11 from structure
 	string		aa
 	boolean		bb
 	httpclient		hh
+	jsonparser		jj
 end type
 
