@@ -1,0 +1,7 @@
+﻿Save Format v3.0(19990112)
+@begin Libraries
+ "2.pbl" "";
+@end;
+@begin Objects 
+ "n_genapp_connectservice.sru" "2.pbl";
+@end;

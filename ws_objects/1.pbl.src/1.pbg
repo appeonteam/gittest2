@@ -1,0 +1,10 @@
+﻿Save Format v3.0(19990112)
+@begin Libraries
+ "1.pbl" "";
+@end;
+@begin Objects 
+ "d_richtext.srd" "1.pbl";
+ "p_pipeline.srp" "1.pbl";
+ "q_query.srq" "1.pbl";
+ "str_11.srs" "1.pbl";
+@end;

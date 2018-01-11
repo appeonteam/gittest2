@@ -1,0 +1,9 @@
+Save Format v3.0(19990112)
+@begin Targets
+ 0 "genapp.pbt";
+ 1 "webservice.pbt";
+ 2 "assembly.pbt";
+ 3 "webservice1.pbt";
+@end;
+DefaultTarget "genapp.pbt";
+DefaultRemoteTarget "genapp.pbt";

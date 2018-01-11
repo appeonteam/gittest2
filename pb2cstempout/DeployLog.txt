@@ -1,0 +1,335 @@
+
+D:\PB171\GIT\gittest2\pb2cstempout\webservice1>if "" == "" set NET_FRAMEWORK_PB170=C:\Windows\Microsoft.NET\Framework\v4.0.30319 
+
+D:\PB171\GIT\gittest2\pb2cstempout\webservice1>C:\Windows\Microsoft.NET\Framework\v4.0.30319\csc
+Microsoft (R) Visual C# Compiler version 4.0.30319.18408
+for Microsoft (R) .NET Framework 4.5
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+warning CS2008: No source files specified
+error CS1562: Outputs without source must have the /out option specified
+
+D:\PB171\GIT\gittest2\pb2cstempout\webservice1>if errorlevel 9009 exit 3 
+
+D:\PB171\GIT\gittest2\pb2cstempout\webservice1>if exist "D:\PB171\GIT\gittest2\pb2cstempout\webservice1\*.asmx" del "D:\PB171\GIT\gittest2\pb2cstempout\webservice1\*.asmx" 
+
+D:\PB171\GIT\gittest2\pb2cstempout\webservice1>if exist "D:\PB171\GIT\gittest2\pb2cstempout\webservice1\*.html" del "D:\PB171\GIT\gittest2\pb2cstempout\webservice1\*.html" 
+
+D:\PB171\GIT\gittest2\pb2cstempout\webservice1>if exist "D:\PB171\GIT\gittest2\pb2cstempout\webservice1\*.css" del "D:\PB171\GIT\gittest2\pb2cstempout\webservice1\*.css" 
+
+D:\PB171\GIT\gittest2\pb2cstempout\webservice1>if exist "D:\PB171\GIT\gittest2\pb2cstempout\webservice1\*.cs" del "D:\PB171\GIT\gittest2\pb2cstempout\webservice1\*.cs" 
+
+D:\PB171\GIT\gittest2\pb2cstempout\webservice1>if exist "D:\PB171\GIT\gittest2\pb2cstempout\webservice1\*.aspx" del "D:\PB171\GIT\gittest2\pb2cstempout\webservice1\*.aspx" 
+
+D:\PB171\GIT\gittest2\pb2cstempout\webservice1>if exist "D:\PB171\GIT\gittest2\pb2cstempout\webservice1\*.htm" del "D:\PB171\GIT\gittest2\pb2cstempout\webservice1\*.htm" 
+
+D:\PB171\GIT\gittest2\pb2cstempout\webservice1>if exist "D:\PB171\GIT\gittest2\pb2cstempout\webservice1\*.js" del "D:\PB171\GIT\gittest2\pb2cstempout\webservice1\*.js" 
+
+D:\PB171\GIT\gittest2\pb2cstempout\webservice1>if exist "D:\PB171\GIT\gittest2\pb2cstempout\webservice1\*.resx" del "D:\PB171\GIT\gittest2\pb2cstempout\webservice1\*.resx" 
+
+D:\PB171\GIT\gittest2\pb2cstempout\webservice1>if exist "D:\PB171\GIT\gittest2\pb2cstempout\webservice1\*.asax" del "D:\PB171\GIT\gittest2\pb2cstempout\webservice1\*.asax" 
+
+D:\PB171\GIT\gittest2\pb2cstempout\webservice1>if exist "D:\PB171\GIT\gittest2\pb2cstempout\webservice1\build.bat" del "D:\PB171\GIT\gittest2\pb2cstempout\webservice1\build.bat" 
+
+D:\PB171\GIT\gittest2\pb2cstempout\webservice1>if exist "D:\PB171\GIT\gittest2\pb2cstempout\webservice1\web.config" del "D:\PB171\GIT\gittest2\pb2cstempout\webservice1\web.config" 
+
+D:\PB171\GIT\gittest2\pb2cstempout\webservice1>if exist "D:\PB171\GIT\gittest2\pb2cstempout\webservice1\bin" rd /s /q "D:\PB171\GIT\gittest2\pb2cstempout\webservice1\bin" 
+
+D:\PB171\GIT\gittest2\pb2cstempout\webservice1>if exist "D:\PB171\GIT\gittest2\pb2cstempout\webservice1\images" rd /s /q "D:\PB171\GIT\gittest2\pb2cstempout\webservice1\images" 
+
+D:\PB171\GIT\gittest2\pb2cstempout\webservice1>if exist "D:\PB171\GIT\gittest2\pb2cstempout\webservice1\scripts" rd /s /q "D:\PB171\GIT\gittest2\pb2cstempout\webservice1\scripts" 
+
+D:\PB171\GIT\gittest2\pb2cstempout\webservice1>if exist "D:\PB171\GIT\gittest2\pb2cstempout\webservice1\temp" rd /s /q "D:\PB171\GIT\gittest2\pb2cstempout\webservice1\temp" 
+
+D:\PB171\GIT\gittest2\pb2cstempout\webservice1>if exist "D:\PB171\GIT\gittest2\pb2cstempout\webservice1\..\webservice1_root" rd /s /q "D:\PB171\GIT\gittest2\pb2cstempout\webservice1\..\webservice1_root" 
+
+D:\PB171\GIT\gittest2\pb2cstempout\webservice1>rename "D:\PB171\GIT\gittest2\pb2cstempout\webservice1\AssemblyInfo.bak" "AssemblyInfo.cs" 
+
+D:\PB171\GIT\gittest2\pb2cstempout\webservice1>"C:\Program Files\Appeon\PowerBuilder 17.0\DotNET\bin\pb2cs" @"D:\PB171\GIT\gittest2\pb2cstempout\projectinfo.txt" 
+Type-checking (pass 1) system (system)
+Pre-parsing takes 1.00 seconds
+Parsing d:\pb171\git\gittest2\webservice1.pbl (n_webservice1)
+Parsing d:\pb171\git\gittest2\webservice1.pbl (webservice1)
+Parsing takes 0.00 seconds
+Type-checking (pass 1) d:\pb171\git\gittest2\webservice1.pbl (n_webservice1)
+Type-checking (pass 1) d:\pb171\git\gittest2\webservice1.pbl (webservice1)
+Type-checking (pass 1) d:\pb171\git\gittest2\webservice1.pbl (n_webservice1)
+Type-checking (pass 1) d:\pb171\git\gittest2\webservice1.pbl (webservice1)
+Type-checking (pass 1) d:\pb171\git\gittest2\webservice1.pbl (n_webservice1)
+Type-checking (pass 1) d:\pb171\git\gittest2\webservice1.pbl (webservice1)
+Type-checking prototypes/instance variables(pass 2) 
+Type-checking prototypes/instance variables(pass 2) 
+Type-checking methods(pass 2) d:\pb171\git\gittest2\webservice1.pbl (n_webservice1)
+Type-checking methods(pass 2) d:\pb171\git\gittest2\webservice1.pbl (webservice1)
+Typechecking takes 0.00 seconds
+Emitting d:\pb171\git\gittest2\webservice1.pbl (webservice1)
+Emitting d:\pb171\git\gittest2\webservice1.pbl (n_webservice1)
+Emitting d:\pb171\git\gittest2\webservice1.pbl (webservice1)
+Emitting d:\pb171\git\gittest2\webservice1.pbl (webservice1)
+Emitting d:\pb171\git\gittest2\webservice1.pbl (n_webservice1)
+Emitting d:\pb171\git\gittest2\webservice1.pbl (webservice1)
+Emiting takes 0.00 seconds
+
+
+Error Summary : 0 error(s) 
+
+
+
+Warning Summary : 0 warning(s) 
+
+
+
+Compile complete -- 0 error(s), 0 warning(s)
+
+
+D:\PB171\GIT\gittest2\pb2cstempout\webservice1>if ERRORLEVEL 1 exit 1 
+
+D:\PB171\GIT\gittest2\pb2cstempout\webservice1>call build.bat c- "D:\PB171\GIT\gittest2\pb2cstempout\csc_output_file_name.txt" 
+
+D:\PB171\GIT\gittest2\pb2cstempout\webservice1>rem setlocal 
+
+D:\PB171\GIT\gittest2\pb2cstempout\webservice1>if "c-" == "" goto usage  
+
+D:\PB171\GIT\gittest2\pb2cstempout\webservice1>if "C:\Program Files\Appeon\PowerBuilder 17.0\DotNET" == "" goto sethome 
+
+D:\PB171\GIT\gittest2\pb2cstempout\webservice1>if "" == "" set PB_WEBROOT=C:\Program Files\Appeon\PowerBuilder 17.0\DotNET\webroot 
+
+D:\PB171\GIT\gittest2\pb2cstempout\webservice1>set NET_FRAMEWORK_PB170=C:\Windows\Microsoft.NET\Framework\v4.0.30319 
+
+D:\PB171\GIT\gittest2\pb2cstempout\webservice1>md bin 
+
+D:\PB171\GIT\gittest2\pb2cstempout\webservice1>set PBROOTDIR="..\webservice1_root" 
+
+D:\PB171\GIT\gittest2\pb2cstempout\webservice1>md "..\webservice1_root"\mail\users 
+
+D:\PB171\GIT\gittest2\pb2cstempout\webservice1>md "..\webservice1_root"\mail\session 
+
+D:\PB171\GIT\gittest2\pb2cstempout\webservice1>md "..\webservice1_root"\print\users 
+
+D:\PB171\GIT\gittest2\pb2cstempout\webservice1>md "..\webservice1_root"\print\session 
+
+D:\PB171\GIT\gittest2\pb2cstempout\webservice1>md "..\webservice1_root"\log 
+
+D:\PB171\GIT\gittest2\pb2cstempout\webservice1>md "..\webservice1_root"\file\icon 
+
+D:\PB171\GIT\gittest2\pb2cstempout\webservice1>md "..\webservice1_root"\file\users 
+
+D:\PB171\GIT\gittest2\pb2cstempout\webservice1>md "..\webservice1_root"\file\session 
+
+D:\PB171\GIT\gittest2\pb2cstempout\webservice1>set PB_WEBFILEC="..\webservice1_root"\file\common\c 
+
+D:\PB171\GIT\gittest2\pb2cstempout\webservice1>md "..\webservice1_root"\file\common\c\temp 
+
+D:\PB171\GIT\gittest2\pb2cstempout\webservice1>set PB_WEBLIBDIR="..\webservice1_root"\file\common\c\~pl_ 
+
+D:\PB171\GIT\gittest2\pb2cstempout\webservice1>md "..\webservice1_root"\file\common\c\~pl_ 
+
+D:\PB171\GIT\gittest2\pb2cstempout\webservice1>net user ASPNET 
+The user name could not be found.
+
+More help is available by typing NET HELPMSG 2221.
+
+ASPNET [IIS 5] was not found.
+
+D:\PB171\GIT\gittest2\pb2cstempout\webservice1>goto groupstep_iis6 
+
+D:\PB171\GIT\gittest2\pb2cstempout\webservice1>net localgroup IIS_WPG 
+System error 1376 has occurred.
+
+The specified local group does not exist.
+
+IIS_WPG [IIS 6] was not found.
+
+D:\PB171\GIT\gittest2\pb2cstempout\webservice1>goto groupstep_iis7 
+
+D:\PB171\GIT\gittest2\pb2cstempout\webservice1>net localgroup IIS_IUSRS 
+Alias name     IIS_IUSRS
+Comment        Built-in group used by Internet Information Services.
+
+Members
+
+-------------------------------------------------------------------------------
+IIS APPPOOL\DefaultAppPool
+IIS APPPOOL\PBDotnet4AppPool
+The command completed successfully.
+
+
+D:\PB171\GIT\gittest2\pb2cstempout\webservice1>cacls temp /t /e /c /g IIS_IUSRS:f 
+
+D:\PB171\GIT\gittest2\pb2cstempout\webservice1>cacls "..\webservice1_root" /t /e /c /g IIS_IUSRS:f 
+processed dir: D:\PB171\GIT\gittest2\pb2cstempout\webservice1_root
+processed dir: D:\PB171\GIT\gittest2\pb2cstempout\webservice1_root\file
+processed dir: D:\PB171\GIT\gittest2\pb2cstempout\webservice1_root\log
+processed dir: D:\PB171\GIT\gittest2\pb2cstempout\webservice1_root\mail
+processed dir: D:\PB171\GIT\gittest2\pb2cstempout\webservice1_root\print
+processed dir: D:\PB171\GIT\gittest2\pb2cstempout\webservice1_root\file\common
+processed dir: D:\PB171\GIT\gittest2\pb2cstempout\webservice1_root\file\icon
+processed dir: D:\PB171\GIT\gittest2\pb2cstempout\webservice1_root\file\session
+processed dir: D:\PB171\GIT\gittest2\pb2cstempout\webservice1_root\file\users
+processed dir: D:\PB171\GIT\gittest2\pb2cstempout\webservice1_root\file\common\c
+processed dir: D:\PB171\GIT\gittest2\pb2cstempout\webservice1_root\file\common\c\temp
+processed dir: D:\PB171\GIT\gittest2\pb2cstempout\webservice1_root\file\common\c\~pl_
+processed dir: D:\PB171\GIT\gittest2\pb2cstempout\webservice1_root\mail\session
+processed dir: D:\PB171\GIT\gittest2\pb2cstempout\webservice1_root\mail\users
+processed dir: D:\PB171\GIT\gittest2\pb2cstempout\webservice1_root\print\session
+processed dir: D:\PB171\GIT\gittest2\pb2cstempout\webservice1_root\print\users
+
+D:\PB171\GIT\gittest2\pb2cstempout\webservice1>if "c-" == "c-" goto notcopy 
+
+D:\PB171\GIT\gittest2\pb2cstempout\webservice1>xcopy /D /Y "C:\Program Files\Appeon\PowerBuilder 17.0\DotNET\webroot\global.asax" . 
+File not found - global.asax
+0 File(s) copied
+
+D:\PB171\GIT\gittest2\pb2cstempout\webservice1>xcopy /D /Y "C:\Program Files\Appeon\PowerBuilder 17.0\DotNET\webroot\global.asax.cs" . 
+File not found - global.asax.cs
+0 File(s) copied
+
+D:\PB171\GIT\gittest2\pb2cstempout\webservice1>xcopy /D /Y "C:\Program Files\Appeon\PowerBuilder 17.0\DotNET\webroot\global.asax.resx" . 
+File not found - global.asax.resx
+0 File(s) copied
+
+D:\PB171\GIT\gittest2\pb2cstempout\webservice1>REM xcopy /D /Y /E "C:\Program Files\Appeon\PowerBuilder 17.0\DotNET\webroot\images\*.*" images\ 
+
+D:\PB171\GIT\gittest2\pb2cstempout\webservice1>REM xcopy /D /Y /E "C:\Program Files\Appeon\PowerBuilder 17.0\DotNET\webroot\scripts\*.*" scripts\ 
+
+D:\PB171\GIT\gittest2\pb2cstempout\webservice1>xcopy /D /Y "C:\Program Files\Appeon\PowerBuilder 17.0\DotNET\bin\Sybase.PowerBuilder.System.pbd" "..\webservice1_root"\file\common\c\~pl_\ 
+C:\Program Files\Appeon\PowerBuilder 17.0\DotNET\bin\Sybase.PowerBuilder.System.pbd
+1 File(s) copied
+
+D:\PB171\GIT\gittest2\pb2cstempout\webservice1>reg import "C:\Program Files\Appeon\PowerBuilder 17.0\DotNET\bin\PBExceptionTrace.reg" 
+The operation completed successfully.
+
+D:\PB171\GIT\gittest2\pb2cstempout\webservice1>if "D:\PB171\GIT\gittest2\pb2cstempout\csc_output_file_name.txt" == "" (C:\Windows\Microsoft.NET\Framework\v4.0.30319\csc /t:library /debug   /platform:x86 "/r:C:\Program Files\Appeon\PowerBuilder 17.0\DotNET\bin\Sybase.PowerBuilder.Core.dll;C:\Program Files\Appeon\PowerBuilder 17.0\DotNET\bin\Sybase.PowerBuilder.Interop.dll;C:\Program Files\Appeon\PowerBuilder 17.0\DotNET\bin\Sybase.PowerBuilder.Common.dll;C:\Program Files\Appeon\PowerBuilder 17.0\DotNET\bin\Sybase.PowerBuilder.Web.WebService.dll;C:\Program Files\Appeon\PowerBuilder 17.0\DotNET\bin\Sybase.PowerBuilder.WinWebDataWindowCommon.dll;C:\Program Files\Appeon\PowerBuilder 17.0\DotNET\bin\com.sybase.ejb.net.dll;C:\Program Files\Appeon\PowerBuilder 17.0\DotNET\bin\com.sybase.iiop.net.dll" /out:"bin\webservice1.dll" *.cs )  else (C:\Windows\Microsoft.NET\Framework\v4.0.30319\csc /t:library /debug   /platform:x86 "/r:C:\Program Files\Appeon\PowerBuilder 17.0\DotNET\bin\Sybase.PowerBuilder.Core.dll;C:\Program Files\Appeon\PowerBuilder 17.0\DotNET\bin\Sybase.PowerBuilder.Interop.dll;C:\Program Files\Appeon\PowerBuilder 17.0\DotNET\bin\Sybase.PowerBuilder.Common.dll;C:\Program Files\Appeon\PowerBuilder 17.0\DotNET\bin\Sybase.PowerBuilder.Web.WebService.dll;C:\Program Files\Appeon\PowerBuilder 17.0\DotNET\bin\Sybase.PowerBuilder.WinWebDataWindowCommon.dll;C:\Program Files\Appeon\PowerBuilder 17.0\DotNET\bin\com.sybase.ejb.net.dll;C:\Program Files\Appeon\PowerBuilder 17.0\DotNET\bin\com.sybase.iiop.net.dll" /out:"bin\webservice1.dll" *.cs  1>"D:\PB171\GIT\gittest2\pb2cstempout\csc_output_file_name.txt" ) 
+Build Succeeded.
+
+D:\PB171\GIT\gittest2\pb2cstempout\webservice1>goto end 
+
+D:\PB171\GIT\gittest2\pb2cstempout\webservice1>rem endlocal 
+
+D:\PB171\GIT\gittest2\pb2cstempout\webservice1>if ERRORLEVEL 1 exit 2 
+
+D:\PB171\GIT\gittest2\pb2cstempout\webservice1>if exist "D:\PB171\GIT\gittest2\pb2cstempout\webservice1\*.cs" del "D:\PB171\GIT\gittest2\pb2cstempout\webservice1\*.cs" 
+Generating PowerBuilder .NET assemblies succeeded.
+Warning: Cannot delete the D:\PB171\GIT\gittest2\pb2cstempout\webservice1\build.bat file.
+Warning: Cannot delete the D:\PB171\GIT\gittest2\pb2cstempout\webservice1\securityperms.txt file.
+
+D:\PB171\GIT\gittest2\pb2cstempout>call "D:\PB171\GIT\gittest2\pb2cstempout\webservice1\deploytoserver.bat"  
+
+D:\PB171\GIT\gittest2\pb2cstempout>xcopy /H /D /Y "D:\PB171\GIT\gittest2\webservice1.pbd" "C:\Publish\wwwroot\webservice1\..\webservice1_root\file\common\c\~pl_\" 
+D:\PB171\GIT\gittest2\webservice1.pbd
+1 File(s) copied
+
+D:\PB171\GIT\gittest2\pb2cstempout>echo successful 
+successful
+
+D:\PB171\GIT\gittest2\pb2cstempout>del "D:\PB171\GIT\gittest2\pb2cstempout\webservice1\deploytoserver.bat"  
+
+D:\PB171\GIT\gittest2\pb2cstempout>call "D:\PB171\GIT\gittest2\pb2cstempout\webservice1\createvdir_webservice1.bat"  
+
+D:\PB171\GIT\gittest2\pb2cstempout>if not exist "C:\Publish\wwwroot\webservice1" mkdir "C:\Publish\wwwroot\webservice1" 
+
+D:\PB171\GIT\gittest2\pb2cstempout>C:\Windows\system32\inetsrv\appcmd add apppool /name:"PBDotnet4AppPool" /managedRuntimeVersion:v4.0 /Enable32BitAppOnWin64:true /managedPipelineMode:Classic  
+ERROR ( message:Failed to add duplicate collection element "PBDotnet4AppPool". )
+
+D:\PB171\GIT\gittest2\pb2cstempout>C:\Windows\system32\inetsrv\appcmd add app /site.name:"apiault Web Site" /path:"/webservice1" /physicalPath:"C:\Publish\wwwroot\webservice1" /ApplicationPool:"PBDotnet4AppPool" 
+ERROR ( message:Cannot find SITE object with identifier "apiault Web Site". )
+
+D:\PB171\GIT\gittest2\pb2cstempout>del "D:\PB171\GIT\gittest2\pb2cstempout\webservice1\createvdir_webservice1.bat" 
+The batch file cannot be found.
+
+D:\PB171\GIT\gittest2\pb2cstempout>call "D:\PB171\GIT\gittest2\pb2cstempout\webservice1\pb1134.tmp.bat"  
+
+D:\PB171\GIT\gittest2\pb2cstempout>C:\Windows\system32\inetsrv\appcmd list app "apiault Web Site/webservice1"   1>"D:\PB171\GIT\gittest2\pb2cstempout\webservice1\pb1135.tmp.txt" 
+
+D:\PB171\GIT\gittest2\pb2cstempout>"D:\PB171\GIT\gittest2\pb2cstempout\webservice1\pb1133.tmp.vbs" "D:\PB171\GIT\gittest2\pb2cstempout\webservice1\pb1135.tmp.txt" "C:\Windows\system32\inetsrv\appcmd"  
+
+D:\PB171\GIT\gittest2\pb2cstempout>del "D:\PB171\GIT\gittest2\pb2cstempout\webservice1\pb1135.tmp.txt"  
+
+D:\PB171\GIT\gittest2\pb2cstempout>del "D:\PB171\GIT\gittest2\pb2cstempout\webservice1\pb1133.tmp.vbs"  
+
+D:\PB171\GIT\gittest2\pb2cstempout>del "D:\PB171\GIT\gittest2\pb2cstempout\webservice1\pb1134.tmp.bat"  
+The batch file cannot be found.
+
+D:\PB171\GIT\gittest2\pb2cstempout>if not exist "C:\Publish\wwwroot\webservice1" mkdir "C:\Publish\wwwroot\webservice1"  
+
+D:\PB171\GIT\gittest2\pb2cstempout>xcopy /Y /E /D "D:\PB171\GIT\gittest2\pb2cstempout\webservice1" "C:\Publish\wwwroot\webservice1"  
+D:\PB171\GIT\gittest2\pb2cstempout\webservice1\n_webservice1.asmx
+D:\PB171\GIT\gittest2\pb2cstempout\webservice1\TestWebService.htm
+D:\PB171\GIT\gittest2\pb2cstempout\webservice1\web.config
+D:\PB171\GIT\gittest2\pb2cstempout\webservice1\webservice1.disco
+D:\PB171\GIT\gittest2\pb2cstempout\webservice1\bin\webservice1.dll
+D:\PB171\GIT\gittest2\pb2cstempout\webservice1\bin\webservice1.pdb
+D:\PB171\GIT\gittest2\pb2cstempout\webservice1\bin\webservice1_ws.dll
+D:\PB171\GIT\gittest2\pb2cstempout\webservice1\bin\webservice1_ws.pdb
+8 File(s) copied
+
+D:\PB171\GIT\gittest2\pb2cstempout>rd /S /Q "D:\PB171\GIT\gittest2\pb2cstempout\webservice1"  
+
+D:\PB171\GIT\gittest2\pb2cstempout>if not exist "C:\Publish\wwwroot\webservice1_root" mkdir "C:\Publish\wwwroot\webservice1_root"  
+
+D:\PB171\GIT\gittest2\pb2cstempout>xcopy /Y /E /D "D:\PB171\GIT\gittest2\pb2cstempout\webservice1_root" "C:\Publish\wwwroot\webservice1_root"  
+D:\PB171\GIT\gittest2\pb2cstempout\webservice1_root\file\common\c\~pl_\Sybase.PowerBuilder.System.pbd
+1 File(s) copied
+
+D:\PB171\GIT\gittest2\pb2cstempout>rd /S /Q "D:\PB171\GIT\gittest2\pb2cstempout\webservice1_root"  
+
+D:\PB171\GIT\gittest2\pb2cstempout>call "D:\PB171\GIT\gittest2\pb2cstempout\pb1136.tmp.bat"  
+
+D:\PB171\GIT\gittest2\pb2cstempout>net user ASPNET    
+The user name could not be found.
+
+More help is available by typing NET HELPMSG 2221.
+
+ASPNET [IIS 5] was not found.
+
+D:\PB171\GIT\gittest2\pb2cstempout>goto groupstep_iis6    
+
+D:\PB171\GIT\gittest2\pb2cstempout>net localgroup IIS_WPG     
+System error 1376 has occurred.
+
+The specified local group does not exist.
+
+IIS_WPG [IIS 6] was not found.
+
+D:\PB171\GIT\gittest2\pb2cstempout>goto groupstep_iis7     
+
+D:\PB171\GIT\gittest2\pb2cstempout>net localgroup IIS_IUSRS     
+Alias name     IIS_IUSRS
+Comment        Built-in group used by Internet Information Services.
+
+Members
+
+-------------------------------------------------------------------------------
+IIS APPPOOL\DefaultAppPool
+IIS APPPOOL\PBDotnet4AppPool
+The command completed successfully.
+
+
+D:\PB171\GIT\gittest2\pb2cstempout>cacls "C:\Publish\wwwroot\webservice1\temp" /t /e /c /g IIS_IUSRS:f     
+
+D:\PB171\GIT\gittest2\pb2cstempout>cacls "C:\Publish\wwwroot\webservice1_root" /t /e /c /g IIS_IUSRS:f      
+processed dir: C:\Publish\wwwroot\webservice1_root
+processed dir: C:\Publish\wwwroot\webservice1_root\file
+processed dir: C:\Publish\wwwroot\webservice1_root\log
+processed dir: C:\Publish\wwwroot\webservice1_root\mail
+processed dir: C:\Publish\wwwroot\webservice1_root\print
+processed dir: C:\Publish\wwwroot\webservice1_root\file\common
+processed dir: C:\Publish\wwwroot\webservice1_root\file\icon
+processed dir: C:\Publish\wwwroot\webservice1_root\file\session
+processed dir: C:\Publish\wwwroot\webservice1_root\file\users
+processed dir: C:\Publish\wwwroot\webservice1_root\file\common\c
+processed dir: C:\Publish\wwwroot\webservice1_root\file\common\c\temp
+processed dir: C:\Publish\wwwroot\webservice1_root\file\common\c\~pl_
+processed file: C:\Publish\wwwroot\webservice1_root\file\common\c\~pl_\Sybase.PowerBuilder.System.pbd
+processed file: C:\Publish\wwwroot\webservice1_root\file\common\c\~pl_\webservice1.pbd
+processed dir: C:\Publish\wwwroot\webservice1_root\mail\session
+processed dir: C:\Publish\wwwroot\webservice1_root\mail\users
+processed dir: C:\Publish\wwwroot\webservice1_root\print\session
+processed dir: C:\Publish\wwwroot\webservice1_root\print\users
+
+D:\PB171\GIT\gittest2\pb2cstempout>del  "D:\PB171\GIT\gittest2\pb2cstempout\pb1136.tmp.bat" 
+The batch file cannot be found.
+
+D:\PB171\GIT\gittest2\pb2cstempout>del "D:\PB171\GIT\gittest2\pb2cstempout\deploytoserver.bat"  
+The batch file cannot be found.
+Deploying PowerBuilder .NET assemblies succeeded.

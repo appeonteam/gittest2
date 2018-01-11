@@ -1,0 +1,9 @@
+﻿$PBExportHeader$p_pipeline.srp
+PIPELINE(source_connect=PB Demo DB V2017R2 Unicode,destination_connect=PB Demo DB V2017R2,type=create,commit=100,errors=100,keyname="customer_x")
+SOURCE(name="customer",COLUMN(type=long,name="id",dbtype="integer",key=yes,nulls_allowed=no)
+ COLUMN(type=varchar,name="fname",dbtype="varchar(15)",nulls_allowed=no)
+ COLUMN(type=varchar,name="lname",dbtype="varchar(20)",nulls_allowed=no))
+RETRIEVE(statement="PBSELECT(TABLE(NAME=~"customer~") COLUMN(NAME=~"customer.id~") COLUMN(NAME=~"customer.fname~") COLUMN(NAME=~"customer.lname~") )")
+DESTINATION(name="customer",COLUMN(type=long,name="id",dbtype="integer",key=yes,nulls_allowed=no,initial_value="0")
+ COLUMN(type=varchar,name="fname",dbtype="varchar(15)",nulls_allowed=no,initial_value="spaces")
+ COLUMN(type=varchar,name="lname",dbtype="varchar(20)",nulls_allowed=no,initial_value="spaces"))
