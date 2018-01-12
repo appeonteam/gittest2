@@ -3,5 +3,5 @@
  "中文pbl.pbl" "";
 @end;
 @begin Objects 
- "f_test1.srf" "中文pbl.pbl";
+ "f_加法.srf" "中文pbl.pbl";
 @end;
