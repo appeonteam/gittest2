@@ -3,5 +3,5 @@
  "3.pbl" "";
 @end;
 @begin Objects 
- "d_ole.srd" "3.pbl";
+ "get_info.srf" "3.pbl";
 @end;
